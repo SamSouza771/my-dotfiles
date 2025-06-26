@@ -1,0 +1,32 @@
+theme = "base16_transparent"
+
+[editor]
+#auto-format = true
+auto-pairs = true
+line-number = "relative"
+cursorline = true
+
+[keys.normal]
+#navegação
+"j" = "move_char_left"
+"k" = "move_line_up"
+"l" = "move_line_down"
+"ç" = "move_char_right"
+
+"K" = "goto_next_paragraph"
+"L" = "goto_prev_paragraph"
+
+"1" = "goto_line_start"
+"0" = "goto_last_line"
+"g" = "goto_line_start"
+"G" = "goto_line_end"
+
+#comandos
+#"C-S-c" = "space.y"
+"C-s" = ":w"                      
+"C-q" = ":q"
+"C-x" = ":x"
+
+[keys.insert]
+"C-s" = ":w"
+
