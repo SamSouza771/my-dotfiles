@@ -22,7 +22,7 @@ cursorline = true
 "G" = "goto_line_end"
 
 #comandos
-#"C-S-c" = "space.y"
+"C-A-q" = ":q!"
 "C-s" = ":w"                      
 "C-q" = ":q"
 "C-x" = ":x"
